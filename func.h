@@ -6,6 +6,8 @@
 #include <cstdlib>
 #include <stdexcept>
 
+void positiveMessages(int);
+
 int randomize();
 
 int findSign();

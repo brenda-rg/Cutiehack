@@ -10,7 +10,6 @@ int randomize();
 
 int findSign();
 
-
 void astrologySign();
 
 #endif

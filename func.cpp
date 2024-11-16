@@ -2,9 +2,9 @@
 #include "func.h"
 
 using namespace std;
+vector<string> a = {"1", "2", "3"};
 
-int func() {
-    cout << "Welcome to Astro" << endl;
-
-    return 0;
+int randomize() {
+    int index = rand()%12+1;
+    return index;
 }

@@ -4,7 +4,11 @@
 #include <string>
 #include <vector>
 #include <cstdlib>
+#include <stdexcept>
 
 int randomize();
+
+int findSign();
+
 
 #endif

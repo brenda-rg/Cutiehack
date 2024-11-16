@@ -2,12 +2,10 @@
 #include "iostream"
 using namespace std;
 
-
-
 bool Date::isvalid(int month, int day) {
     map<int,int> dates;
     dates.insert(std::pair<int,int>(1,31));
-    dates.insert(std::pair<int,int>(2,28));
+    dates.insert(std::pair<int,int>(2,29));
     dates.insert(std::pair<int,int>(3,31));
     dates.insert(std::pair<int,int>(4,30));
     dates.insert(std::pair<int,int>(5,31));

@@ -10,7 +10,7 @@ int func() {
     return 0;
 }
 
-void astrologySign (int signNum){
+void astrologySign (){
     int userNum = 0;
     string userSign;
     cout << "Please enter your astrology sign: (1 being Aries, through 12 being Pisces)" << endl;

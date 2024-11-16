@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     //input user astrology sign
     int userNum;
-    astrologySign(userNum);
+    astrologySign();
     //function that returns a positive message
     //vector of messages, return the value at a vector index
     //simplistic website for kids who want to learn about the universe

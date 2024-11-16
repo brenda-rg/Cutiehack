@@ -3,6 +3,6 @@
 
 #include <string>
 
-void astrologySign(int );
+void astrologySign();
 
 #endif

@@ -3,7 +3,6 @@
 #include "date.cpp"
 
 using namespace std;
-vector<string> a = {"1", "2", "3"};
 
 int randomize() {
     int index = rand()%12+1;
@@ -31,32 +30,32 @@ int findSign() {
     if(month == 5 && day > 20 || month == 6 && day <= 20) {
         return 3; //Gemini
     }
-    if(month == 6 && day > 20 || month == 4 && day < 23) {
+    if(month == 6 && day > 20 || month == 7 && day < 23) {
         return 4; //Cancer
     }
-    if(month == 3 && day > 20 || month == 4 && day < 20) {
-        return 5;
+    if(month == 7 && day > 22 || month == 8 && day < 23) {
+        return 5; //Leo
     }
-    if(month == 3 && day > 20 || month == 4 && day < 20) {
-        return 6;
+    if(month == 8 && day > 22 || month == 9 && day < 23) {
+        return 6; //Virgo
     }
-    if(month == 3 && day > 20 || month == 4 && day < 20) {
-        return 7;
+    if(month == 9 && day > 24 || month == 10 && day < 23) {
+        return 7; //Libra
     }
-    if(month == 3 && day > 20 || month == 4 && day < 20) {
-        return 8;
+    if(month == 10 && day > 24 || month == 11 && day < 22) {
+        return 8; //Scorpio
     }
-    if(month == 3 && day > 20 || month == 4 && day < 20) {
-        return 9;
+    if(month == 11 && day > 23 || month == 12 && day < 22) {
+        return 9; //Sagittarius
     }
-    if(month == 3 && day > 20 || month == 4 && day < 20) {
-        return 10;
+    if(month == 12 && day > 21 || month == 1 && day < 20) {
+        return 10; //Capricorn
     }
-    if(month == 3 && day > 20 || month == 4 && day < 20) {
-        return 11;
+    if(month == 1 && day > 21 || month == 2 && day < 19) {
+        return 11; //Aquarius
     }
     else {
-        return 12;
+        return 12; //Pisces
     }
 
 

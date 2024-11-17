@@ -12,6 +12,8 @@ int randomize();
 
 int findSign();
 
+void correlatingSign();
+
 void astrologySign();
 
 #endif

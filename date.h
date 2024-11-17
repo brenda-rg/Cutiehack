@@ -6,6 +6,7 @@
 class Date {
     public:
     bool isvalid(int, int);
+
 };
 
 

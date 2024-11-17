@@ -2,32 +2,40 @@
 #include "func.cpp"
 #include <string>
 
-#include "func.cpp"
 using namespace std;
 
 int main() {
     //input user astrology sign
-    string userAnswer;
     cout << "Welcome to AstroKids-- Astrology for Kids!" << endl;
-    cout << "Do you know your astrological sign (zodiac sign)? (Yes/No): ";
+    cout << "Enter your birthday for your astrology sign: ";
     
-    cin >> userAnswer;
+    int birthNum = findSign();
+    cout << "The number corresponding to your sign is: " << birthNum << endl;
+    
+    astrologySign();
     cout << endl;
 
-    if (userAnswer == "No" || userAnswer == "No"){
-        int birthNum = findSign();
-        cout << "The number corresponding to your sign is: " << birthNum << endl;
-    }
-    astrologySign();
-
     //function that returns a positive message
-    //vector of messages, return the value at a vector index
-    int num1;
+    cout << "Here is a message you should hear for your astrological sign:" << endl;
+    positiveMessages(randomize()); 
 
-
-    cout << "Enter number" << endl;
-    cin >> num1;
-    positiveMessages(num1); 
+    cout << "Would you like to learn more about your astrological sign? (Yes/No)";
+    string userQ1Answer;
+    string userQ2Answer;
+    
+    cin >> userQ1Answer;
+    cout << endl;
+    if (userQ1Answer == "No" || userQ1Answer == "no"){
+        cout << "Are you sure? You can see how similar you are to your sign's common traits! :) (Yes/No)";
+        cin >> userQ2Answer;
+        cout << endl;
+        if (userQ2Answer == "Yes" || userQ2Answer == "yes"){
+            cout << "Bummer :(" << endl;
+        }
+    }
+    else {
+        cout << " Traits: " << endl;
+    }
 
     //simplistic website for kids who want to learn about the universe
     //stars of each sign

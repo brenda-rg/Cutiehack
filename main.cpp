@@ -6,23 +6,18 @@ using namespace std;
 
 int main() {
     //input user astrology sign
-    string userAnswer;
+    int num1;
     cout << "Welcome to AstroKids-- Astrology for Kids!" << endl;
-    cout << "Do you know your astrological sign (zodiac sign)? (Yes/No): ";
+    cout << "Enter your birthday for your astrology sign: ";
     
-    cin >> userAnswer;
+    int birthNum = findSign();
+    cout << "The number corresponding to your sign is: " << birthNum << endl;
+    
+    astrologySign();
     cout << endl;
 
-    if (userAnswer == "No" || userAnswer == "No"){
-        int birthNum = findSign();
-        cout << "The number corresponding to your sign is: " << birthNum << endl;
-    }
-    astrologySign();
-
     //function that returns a positive message
-    //vector of messages, return the value at a vector index
-    int num1;
-
+    cout << "Here is a message you should hear for your astrological sign:" << endl;
     positiveMessages(randomize()); 
 
     do {

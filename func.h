@@ -16,6 +16,8 @@ void funfact();
 
 int findSign();
 
+void correlatingSign();
+
 void astrologySign();
 
 #endif

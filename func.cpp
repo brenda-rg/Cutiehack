@@ -9,19 +9,19 @@ vector<string> funFacts = {
 "Many years ago, the Babylonians, an ancient group of people, noticed that Earth encountered the same constellations (a pattern of stars) around the same time every year." ,
 "They then noted 12 constellations, known popularly as the zodiac signs. These include Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces. Each zodiac sign has a specific time period related to it because of the Babylonians." ,
 "Astrology is the study of the positioning of the stars, planets, moons, and sun and how it affects everyday life. It is important to remember that astrology is not backed up by science, but many still believe in it." ,
-"Astrologists, people who study astrology, believe that based on the day you were born, your personality and future will be affected by it. They look closely at each person’s zodiac sign, which is determined by which zodiac’s time period an individual’s birthday lands on.",
+"Astrologists, people who study astrology, believe that based on the day you were born, your personality and future will be affected by it. They look closely at each person\'s zodiac sign, which is determined by which zodiac\'s time period an individual\'s birthday lands on.",
 "Aries (March 21 - April 19): Astrologists believe that people born between March 21 - April 19 are stubborn and ambitious. They love to compete and are quick to adapt. ",
-"Taurus (April 20 – May 20): Those born on these dates are said to cherish their times of rest greatly. They lean towards more relaxing sounds and spots. ",
-"Gemini (May 21 – June 20): Geminis are known to be curious and playful. Their curiosity leads them to be quite ambitious in their goals.", 
-"Cancer (June 21 – July 22): Trust is said to be extremely important for people who are born between June 21 - July 22. They are said to be emotional and decide on things based on their gut.", 
-"Leo (July 23 – August 22): Leos are loyal and passionate people. Astrologists say they can be quite dramatic and are fiery. Usually, they have the spotlight on them.",
-"Virgo (August 23 – September 22): Those whose zodiac sign is Virgo are said to be logical and are realists. They can be quite the perfectionists and get things done.", 
-"Libra (September 23 – October 22): Libras are known to value balance and justice. Each Libra’s definition of balance and justice may be different, but they all work hard to achieve it.", 
-"Scorpio (October 23 – November 21): Similar to Cancer, Scorpios are also said to be emotional and tend to follow their gut. However, others’ emotions also affect them, causing them to mature through others’ experiences.",
-"Sagittarius (November 22 – December 21): People who are Sagittariuses have many talents. This is said to be because they always have a passion to learn.",
-"Capricorn (December 22 – January 19): Capricorn’s value time and patience. They persevere through hardships and are known to put in a lot of effort.",
-"Aquarius (January 20 – February 18): Those who are Aquarius are creative and are ready for change. They wish for the world to be a better place and take action to make it so.", 
-"Pisces (February 19 – March 20): Last, but not the least, Pisces are said to be the most sensitive and in touch with other people’s emotions. They are also the zodiac sign that uses their gut to make decisions the most."};
+"Taurus (April 20 - May 20): Those born on these dates are said to cherish their times of rest greatly. They lean towards more relaxing sounds and spots. ",
+"Gemini (May 21 - June 20): Geminis are known to be curious and playful. Their curiosity leads them to be quite ambitious in their goals.", 
+"Cancer (June 21 - July 22): Trust is said to be extremely important for people who are born between June 21 - July 22. They are said to be emotional and decide on things based on their gut.", 
+"Leo (July 23 - August 22): Leos are loyal and passionate people. Astrologists say they can be quite dramatic and are fiery. Usually, they have the spotlight on them.",
+"Virgo (August 23 - September 22): Those whose zodiac sign is Virgo are said to be logical and are realists. They can be quite the perfectionists and get things done.", 
+"Libra (September 23 - October 22): Libras are known to value balance and justice. Each Libra\'s definition of balance and justice may be different, but they all work hard to achieve it.", 
+"Scorpio (October 23 - November 21): Similar to Cancer, Scorpios are also said to be emotional and tend to follow their gut. However, others\' emotions also affect them, causing them to mature through others\' experiences.",
+"Sagittarius (November 22 - December 21): People who are Sagittariuses have many talents. This is said to be because they always have a passion to learn.",
+"Capricorn (December 22 - January 19): Capricorn\'s value time and patience. They persevere through hardships and are known to put in a lot of effort.",
+"Aquarius (January 20 - February 18): Those who are Aquarius are creative and are ready for change. They wish for the world to be a better place and take action to make it so.", 
+"Pisces (February 19 - March 20): Last, but not the least, Pisces are said to be the most sensitive and in touch with other people\'s emotions. They are also the zodiac sign that uses their gut to make decisions the most."};
 
 int randomize() {
     int index = rand()%12+1;

@@ -2,7 +2,6 @@
 #include "func.cpp"
 #include <string>
 
-#include "func.cpp"
 using namespace std;
 
 int main() {
@@ -24,10 +23,15 @@ int main() {
     //vector of messages, return the value at a vector index
     int num1;
 
+    positiveMessages(randomize()); 
 
-    cout << "Enter number" << endl;
-    cin >> num1;
-    positiveMessages(num1); 
+    do {
+        cout << "Enter any number to get a fun fact or -1 to exit" << endl;
+        cin >> num1;
+        if(num1 != -1) {
+            funFact();
+        }
+    } while(num1 != -1);
 
     //simplistic website for kids who want to learn about the universe
     //stars of each sign

@@ -10,6 +10,10 @@ void positiveMessages(int);
 
 int randomize();
 
+int randomize2();
+
+void funfact();
+
 int findSign();
 
 void astrologySign();

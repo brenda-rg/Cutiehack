@@ -24,11 +24,13 @@ vector<string> funFacts = {
 "Pisces (February 19 - March 20): Last, but not the least, Pisces are said to be the most sensitive and in touch with other people\'s emotions. They are also the zodiac sign that uses their gut to make decisions the most."};
 
 int randomize() {
+    srand(time(0));
     int index = rand()%12+1;
     return index;
 }
 
 int randomize2() {
+    srand(time(0));
     int index = rand()%16+1;
     return index;
 };
